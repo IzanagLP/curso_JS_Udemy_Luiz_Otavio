@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.heading {
+    color: red;
+}
+
+.main-content p {
+    color: blue;
+    font-style: italic;
+}
+
+div.main-content h2.heading {
+    color: green;
+    font-style: italic;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+/*.pai {
+    color: orange;
+}*/
+
+.pai > .filha {
+    color: red;
+}
+
+.pai > .filha > .filha {
+    color: cyan;
+}
