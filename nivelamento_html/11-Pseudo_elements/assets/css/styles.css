@@ -1,0 +1,37 @@
+ul li::before{
+    content:'antes - ';
+    background: blue;
+    color: white;
+    
+}
+
+ul li::after{
+    content:' - depois';
+    background: red;
+    color: white;
+    
+}
+
+p{
+    font-size: 24px;
+}
+
+p::first-letter{
+    font-size: 150px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line{
+    background: red;
+}
+
+p::selection{
+    background: black;
+    color:white;
+}
+
+.form-field::placeholder{
+    color: red;
+}

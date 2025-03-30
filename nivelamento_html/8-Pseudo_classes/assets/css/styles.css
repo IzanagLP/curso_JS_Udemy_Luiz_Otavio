@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover {
+    background: red;
+}
+
+a {
+    color: red;
+
+}
+
+a:link { /*Nunca visitados*/
+    color:deeppink
+}
+
+a:visited { /*Visitados*/
+    color:purple
+}
+
+a:hover {
+    background: darkslateblue;
+    color:white;
+    text-decoration: none;
+}
+
+a:active{ /*Segurando clique*/
+    background: darkred;
+    color:white;
+    text-decoration: none;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+    cursor: not-allowed;
+}
+
+input:checked + p{
+    background: red;
+}
+
+.pai .lista li:first-child{
+    background: red;
+}
