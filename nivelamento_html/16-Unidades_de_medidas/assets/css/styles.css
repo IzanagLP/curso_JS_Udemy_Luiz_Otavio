@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /*62.5% faz 1rem virar 10px*/
+    scroll-behavior: smooth;
+}
+
+.pai {
+    width: 50rem; /*500px*/
+    /*vw é a porcentagem do tamanho do viewport baseado no width*/
+    height: 100vw; 
+    /*vh é a porcentagem do tamanho do viewport baseado no height*/
+    height: 100vh;
+    background: yellow;
+    overflow: hidden;
+}
+
+.pai > div{
+    width: 50%; /*Porcentagem é relacionado ao elemento pai*/
+    height: 50rem;
+    background: blue;
+}
+
+
+p {
+    font-size: 1.6rem; 
+    /*"em" se relaciona com o elemento pai*/ /*"rem" se baseia no elemento root do elemento tag html*/
+    font-size: 2vmax; /*muda o tamanho de acordo com o maior ou menor tamanho do viewport*/
+}
+
+.color-one {
+    background: turquoise;
+}
+
+.color-two {
+    background: violet;
+}
