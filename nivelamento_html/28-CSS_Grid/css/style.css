@@ -10,14 +10,5 @@ body {
 }
 
 .grid {
-    max-width: 1200px;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(autofill, minmax(320px, 1fr));
-    gap: 30px
-}
-
-.grid div {
-    background: tomato;
-    min-height: 100px;
 }
